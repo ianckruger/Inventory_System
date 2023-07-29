@@ -1,4 +1,4 @@
-# Use binary search tree
+# Inventory System via Binary Search Tree.
 
 class TreeNode:
     _quantity = int
@@ -20,7 +20,6 @@ class InventorySystem:
         self.root = root
 
     def addNodeA(self, quantity, name):
-        # Check for root node
         if self.root is None:
             self.root = TreeNode(quantity, name)
         else:
